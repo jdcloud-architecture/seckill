@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<!--Rational Software Architect Designer 9.5-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<umlnotation:UMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_ooNN0HkNEeiWy92Mts3TXw" type="Class" name="classdiagram.dnx">
+  <eAnnotations xmi:id="_ooOb8HkNEeiWy92Mts3TXw" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+    <details xmi:id="_ooPDAHkNEeiWy92Mts3TXw" key="com.ibm.xtools.activities.javaVisualizerActivity" value="1"/>
+  </eAnnotations>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_srGbgHkNEeiWy92Mts3TXw" fontName="Menlo" fontHeight="10" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_srNwQHkNEeiWy92Mts3TXw" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_srNwQXkNEeiWy92Mts3TXw" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_srPlcHkNEeiWy92Mts3TXw" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_srPlcXkNEeiWy92Mts3TXw" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_srQzkHkNEeiWy92Mts3TXw" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_srUd8HkNEeiWy92Mts3TXw" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_stXsYHkNEeiWy92Mts3TXw" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_stYTcHkNEeiWy92Mts3TXw" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=MiaoshaController%5Bjcu%5Ename=MiaoshaController.java%5Bjpack%5Ename=com.imooc.miaosha.controller%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_srGbgXkNEeiWy92Mts3TXw" x="5456" y="352" width="5248"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_A_80wHkOEeiWy92Mts3TXw" fontName="Menlo" fontHeight="10" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_A_-C4HkOEeiWy92Mts3TXw" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_A_-C4XkOEeiWy92Mts3TXw" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_A_-p8HkOEeiWy92Mts3TXw" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_A_-p8XkOEeiWy92Mts3TXw" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_A__RAHkOEeiWy92Mts3TXw" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_A__RAXkOEeiWy92Mts3TXw" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_BAfnUHkOEeiWy92Mts3TXw" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_BAgOYHkOEeiWy92Mts3TXw" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=RedisService%5Bjcu%5Ename=RedisService.java%5Bjpack%5Ename=com.imooc.miaosha.redis%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A_80wXkOEeiWy92Mts3TXw" x="12144" y="8800"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_Ik-scHkOEeiWy92Mts3TXw" fontName="Menlo" fontHeight="10" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Ik_6kHkOEeiWy92Mts3TXw" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_Ik_6kXkOEeiWy92Mts3TXw" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ik_6knkOEeiWy92Mts3TXw" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_IlAhoHkOEeiWy92Mts3TXw" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_IlAhoXkOEeiWy92Mts3TXw" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_IlAhonkOEeiWy92Mts3TXw" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_IlMu4HkOEeiWy92Mts3TXw" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_IlMu4XkOEeiWy92Mts3TXw" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=OrderService%5Bjcu%5Ename=OrderService.java%5Bjpack%5Ename=com.imooc.miaosha.service%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ik-scXkOEeiWy92Mts3TXw" x="176" y="7920" width="5867"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_gisCwHkOEeiWy92Mts3TXw" fontName="Menlo" fontHeight="10" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_git38HkOEeiWy92Mts3TXw" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_git38XkOEeiWy92Mts3TXw" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_git38nkOEeiWy92Mts3TXw" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_giufAHkOEeiWy92Mts3TXw" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_giufAXkOEeiWy92Mts3TXw" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_giufAnkOEeiWy92Mts3TXw" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_gi4QAHkOEeiWy92Mts3TXw" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_gi4QAXkOEeiWy92Mts3TXw" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=GoodsService%5Bjcu%5Ename=GoodsService.java%5Bjpack%5Ename=com.imooc.miaosha.service%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gisCwXkOEeiWy92Mts3TXw" x="6688" y="7920" width="4282"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_kZhxcHkOEeiWy92Mts3TXw" fontName="Menlo" fontHeight="10" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_kZi_kHkOEeiWy92Mts3TXw" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_kZi_kXkOEeiWy92Mts3TXw" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_kZjmoHkOEeiWy92Mts3TXw" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_kZjmoXkOEeiWy92Mts3TXw" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_kZkNsHkOEeiWy92Mts3TXw" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_kZkNsXkOEeiWy92Mts3TXw" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_kZyQIHkOEeiWy92Mts3TXw" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_kZyQIXkOEeiWy92Mts3TXw" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=MQSender%5Bjcu%5Ename=MQSender.java%5Bjpack%5Ename=com.imooc.miaosha.rabbitmq%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kZiYgHkOEeiWy92Mts3TXw" x="10384" y="4840" width="4194"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_osvTEHkOEeiWy92Mts3TXw" fontName="Menlo" fontHeight="10" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_oswhMHkOEeiWy92Mts3TXw" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_oswhMXkOEeiWy92Mts3TXw" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_oswhMnkOEeiWy92Mts3TXw" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_osxIQHkOEeiWy92Mts3TXw" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_osxIQXkOEeiWy92Mts3TXw" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_osxIQnkOEeiWy92Mts3TXw" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_os_KsHkOEeiWy92Mts3TXw" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_os_KsXkOEeiWy92Mts3TXw" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=MQReceiver%5Bjcu%5Ename=MQReceiver.java%5Bjpack%5Ename=com.imooc.miaosha.rabbitmq%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_osvTEXkOEeiWy92Mts3TXw" x="5368" y="2816" width="4722"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_rVHDgHkOEeiWy92Mts3TXw" fontName="Menlo" fontHeight="10" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_rVHqkHkOEeiWy92Mts3TXw" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_rVHqkXkOEeiWy92Mts3TXw" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_rVHqknkOEeiWy92Mts3TXw" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_rVIRoHkOEeiWy92Mts3TXw" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_rVIRoXkOEeiWy92Mts3TXw" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_rVIRonkOEeiWy92Mts3TXw" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_rVUe4HkOEeiWy92Mts3TXw" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_rVVF8HkOEeiWy92Mts3TXw" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=MiaoshaService%5Bjcu%5Ename=MiaoshaService.java%5Bjpack%5Ename=com.imooc.miaosha.service%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rVHDgXkOEeiWy92Mts3TXw" x="3520" y="4576" width="4898"/>
+  </children>
+  <element xsi:nil="true"/>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_BHOhcHkOEeiWy92Mts3TXw" source="_srGbgHkNEeiWy92Mts3TXw" target="_A_80wHkOEeiWy92Mts3TXw" fontName="Menlo" fontHeight="10" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_BHSy4HkOEeiWy92Mts3TXw" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_BHTZ8HkOEeiWy92Mts3TXw" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_BHUBAXkOEeiWy92Mts3TXw" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_BHUBAHkOEeiWy92Mts3TXw" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BHSy4XkOEeiWy92Mts3TXw" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=MiaoshaController%5Bjcu%5Ename=MiaoshaController.java%5Bjpack%5Ename=com.imooc.miaosha.controller%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=RedisService%5Bjcu%5Ename=RedisService.java%5Bjpack%5Ename=com.imooc.miaosha.redis%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BHOhcXkOEeiWy92Mts3TXw" points="[743, -1229, -3666, -7867]$[6018, -1229, 1609, -7867]$[6018, 7063, 1609, 425]$[4843, 7063, 434, 425]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-CGcHkOEeiWy92Mts3TXw" id="(0.8571613590891768,0.9640657084188912)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-CtgHkOEeiWy92Mts3TXw" id="(0.8336363369360902,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_IppxEHkOEeiWy92Mts3TXw" source="_srGbgHkNEeiWy92Mts3TXw" target="_Ik-scHkOEeiWy92Mts3TXw" fontName="Menlo" fontHeight="10" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_IpqYIHkOEeiWy92Mts3TXw" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ipq_MHkOEeiWy92Mts3TXw" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ipq_MnkOEeiWy92Mts3TXw" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ipq_MXkOEeiWy92Mts3TXw" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IpqYIXkOEeiWy92Mts3TXw" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=MiaoshaController%5Bjcu%5Ename=MiaoshaController.java%5Bjpack%5Ename=com.imooc.miaosha.controller%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=OrderService%5Bjcu%5Ename=OrderService.java%5Bjpack%5Ename=com.imooc.miaosha.service%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IppxEXkOEeiWy92Mts3TXw" points="[-742, -1299, 3827, -7409]$[-4540, -1299, 29, -7409]$[-4540, 6110, 29, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-FJwHkOEeiWy92Mts3TXw" id="(0.14287576442811548,0.9640657084188912)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-Fw0HkOEeiWy92Mts3TXw" id="(0.25,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_IprmQHkOEeiWy92Mts3TXw" source="_Ik-scHkOEeiWy92Mts3TXw" target="_A_80wHkOEeiWy92Mts3TXw" fontName="Menlo" fontHeight="10" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_IpsNUHkOEeiWy92Mts3TXw" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ips0YHkOEeiWy92Mts3TXw" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ips0YnkOEeiWy92Mts3TXw" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ips0YXkOEeiWy92Mts3TXw" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IpsNUXkOEeiWy92Mts3TXw" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=OrderService%5Bjcu%5Ename=OrderService.java%5Bjpack%5Ename=com.imooc.miaosha.service%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=RedisService%5Bjcu%5Ename=RedisService.java%5Bjpack%5Ename=com.imooc.miaosha.redis%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IprmQXkOEeiWy92Mts3TXw" points="[26, 68, -9470, 998]$[26, 641, -9470, 1571]$[10391, 641, 895, 1571]$[10391, -334, 895, 596]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-NFkHkOEeiWy92Mts3TXw" id="(0.5,0.964065708418892)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-NsoHkOEeiWy92Mts3TXw" id="(0.1669694255169173,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_gme9oHkOEeiWy92Mts3TXw" source="_srGbgHkNEeiWy92Mts3TXw" target="_gisCwHkOEeiWy92Mts3TXw" fontName=".SF NS Text" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_gmgLwHkOEeiWy92Mts3TXw" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_gmgLwnkOEeiWy92Mts3TXw" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_gmgLxHkOEeiWy92Mts3TXw" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_gmgLw3kOEeiWy92Mts3TXw" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gmgLwXkOEeiWy92Mts3TXw" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=MiaoshaController%5Bjcu%5Ename=MiaoshaController.java%5Bjpack%5Ename=com.imooc.miaosha.controller%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GoodsService%5Bjcu%5Ename=GoodsService.java%5Bjpack%5Ename=com.imooc.miaosha.service%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gme9oXkOEeiWy92Mts3TXw" points="[1770, 68, 335, -6042]$[1770, 6110, 335, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-G-8HkOEeiWy92Mts3TXw" id="(0.5714472328744283,0.9640657084188912)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-HmAHkOEeiWy92Mts3TXw" id="(0.75,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_kdGp4HkOEeiWy92Mts3TXw" source="_srGbgHkNEeiWy92Mts3TXw" target="_kZhxcHkOEeiWy92Mts3TXw" fontName=".SF NS Text" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_kdHQ8HkOEeiWy92Mts3TXw" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_kdH4AHkOEeiWy92Mts3TXw" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_kdH4AnkOEeiWy92Mts3TXw" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_kdH4AXkOEeiWy92Mts3TXw" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kdHQ8XkOEeiWy92Mts3TXw" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=MiaoshaController%5Bjcu%5Ename=MiaoshaController.java%5Bjpack%5Ename=com.imooc.miaosha.controller%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=MQSender%5Bjcu%5Ename=MQSender.java%5Bjpack%5Ename=com.imooc.miaosha.rabbitmq%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kdGp4XkOEeiWy92Mts3TXw" points="[37, 68, -3174, -4524]$[37, 842, -3174, -3750]$[3237, 842, 26, -3750]$[3237, 4592, 26, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-I0IHkOEeiWy92Mts3TXw" id="(0.7143042959818026,0.9640657084188912)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-JbMHkOEeiWy92Mts3TXw" id="(0.5001820867608489,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_kdIfEHkOEeiWy92Mts3TXw" source="_kZhxcHkOEeiWy92Mts3TXw" target="_A_80wHkOEeiWy92Mts3TXw" fontName=".SF NS Text" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_kdIfEnkOEeiWy92Mts3TXw" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_kdJGIHkOEeiWy92Mts3TXw" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_kdJGInkOEeiWy92Mts3TXw" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_kdJGIXkOEeiWy92Mts3TXw" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kdIfE3kOEeiWy92Mts3TXw" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=MQSender%5Bjcu%5Ename=MQSender.java%5Bjpack%5Ename=com.imooc.miaosha.rabbitmq%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=RedisService%5Bjcu%5Ename=RedisService.java%5Bjpack%5Ename=com.imooc.miaosha.redis%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kdIfEXkOEeiWy92Mts3TXw" points="[26, 66, 2489, -5472]$[26, 4831, 2489, -707]$[-2428, 4831, 35, -707]$[-2428, 5538, 35, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-OTsHkOEeiWy92Mts3TXw" id="(0.5001820867608489,0.93)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-Ph0HkOEeiWy92Mts3TXw" id="(0.666969425516918,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_oxGOoHkOEeiWy92Mts3TXw" source="_srGbgHkNEeiWy92Mts3TXw" target="_osvTEHkOEeiWy92Mts3TXw" fontName=".SF NS Text" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_oxG1sHkOEeiWy92Mts3TXw" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_oxG1snkOEeiWy92Mts3TXw" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_oxG1tHkOEeiWy92Mts3TXw" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_oxG1s3kOEeiWy92Mts3TXw" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oxG1sXkOEeiWy92Mts3TXw" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=MiaoshaController%5Bjcu%5Ename=MiaoshaController.java%5Bjpack%5Ename=com.imooc.miaosha.controller%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=MQReceiver%5Bjcu%5Ename=MQReceiver.java%5Bjpack%5Ename=com.imooc.miaosha.rabbitmq%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oxGOoXkOEeiWy92Mts3TXw" points="[-236, 68, -257, -938]$[-236, 1006, -257, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-KpUHkOEeiWy92Mts3TXw" id="(0.42858998368426066,0.9640657084188912)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-LQYHkOEeiWy92Mts3TXw" id="(0.5001618297662537,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_oxHcwHkOEeiWy92Mts3TXw" source="_osvTEHkOEeiWy92Mts3TXw" target="_gisCwHkOEeiWy92Mts3TXw" fontName=".SF NS Text" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_oxID0HkOEeiWy92Mts3TXw" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_oxID0nkOEeiWy92Mts3TXw" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_oxID1HkOEeiWy92Mts3TXw" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_oxID03kOEeiWy92Mts3TXw" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oxID0XkOEeiWy92Mts3TXw" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=MQReceiver%5Bjcu%5Ename=MQReceiver.java%5Bjpack%5Ename=com.imooc.miaosha.rabbitmq%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GoodsService%5Bjcu%5Ename=GoodsService.java%5Bjpack%5Ename=com.imooc.miaosha.service%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oxHcwXkOEeiWy92Mts3TXw" points="[799, 66, 166, -4174]$[799, 4240, 166, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-Qv8HkOEeiWy92Mts3TXw" id="(0.6001617677228929,0.93)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-RXAHkOEeiWy92Mts3TXw" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_oxIq4HkOEeiWy92Mts3TXw" source="_osvTEHkOEeiWy92Mts3TXw" target="_Ik-scHkOEeiWy92Mts3TXw" fontName=".SF NS Text" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_oxJR8HkOEeiWy92Mts3TXw" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_oxJR8nkOEeiWy92Mts3TXw" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_oxJR9HkOEeiWy92Mts3TXw" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_oxJR83kOEeiWy92Mts3TXw" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oxJR8XkOEeiWy92Mts3TXw" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=MQReceiver%5Bjcu%5Ename=MQReceiver.java%5Bjpack%5Ename=com.imooc.miaosha.rabbitmq%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=OrderService%5Bjcu%5Ename=OrderService.java%5Bjpack%5Ename=com.imooc.miaosha.service%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oxIq4XkOEeiWy92Mts3TXw" points="[-934, -364, 2285, -4604]$[-940, -364, 2279, -4604]$[-940, -435, 2279, -4675]$[-3233, -435, -14, -4675]$[-3233, 4240, -14, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-SlIHkOEeiWy92Mts3TXw" id="(0.20016180908513342,0.93)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-VBYHkOEeiWy92Mts3TXw" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_oxJ5AHkOEeiWy92Mts3TXw" source="_osvTEHkOEeiWy92Mts3TXw" target="_A_80wHkOEeiWy92Mts3TXw" fontName=".SF NS Text" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_oxJ5AnkOEeiWy92Mts3TXw" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_oxKgEHkOEeiWy92Mts3TXw" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_oxKgEnkOEeiWy92Mts3TXw" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_oxKgEXkOEeiWy92Mts3TXw" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oxJ5A3kOEeiWy92Mts3TXw" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=MQReceiver%5Bjcu%5Ename=MQReceiver.java%5Bjpack%5Ename=com.imooc.miaosha.rabbitmq%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=RedisService%5Bjcu%5Ename=RedisService.java%5Bjpack%5Ename=com.imooc.miaosha.redis%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oxJ5AXkOEeiWy92Mts3TXw" points="[934, -523, -3410, -5643]$[6294, -523, 1950, -5643]$[6294, 5192, 1950, 72]$[5648, 5192, 1304, 72]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-WPgHkOEeiWy92Mts3TXw" id="(0.800161850447374,0.93)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-W2kHkOEeiWy92Mts3TXw" id="(0.5003028812265038,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_rZemIHkOEeiWy92Mts3TXw" source="_srGbgHkNEeiWy92Mts3TXw" target="_rVHDgHkOEeiWy92Mts3TXw" fontName=".SF NS Text" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_rZfNMHkOEeiWy92Mts3TXw" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_rZf0QHkOEeiWy92Mts3TXw" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_rZf0QnkOEeiWy92Mts3TXw" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_rZf0QXkOEeiWy92Mts3TXw" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rZfNMXkOEeiWy92Mts3TXw" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=MiaoshaController%5Bjcu%5Ename=MiaoshaController.java%5Bjpack%5Ename=com.imooc.miaosha.controller%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=MiaoshaService%5Bjcu%5Ename=MiaoshaService.java%5Bjpack%5Ename=com.imooc.miaosha.service%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rZemIXkOEeiWy92Mts3TXw" points="[-1484, -836, 321, -3602]$[-1931, -836, -126, -3602]$[-1931, 2766, -126, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-L3cHkOEeiWy92Mts3TXw" id="(0.28573292057688643,0.9640657084188912)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-MegHkOEeiWy92Mts3TXw" id="(0.33343488413638217,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_rZf0Q3kOEeiWy92Mts3TXw" source="_osvTEHkOEeiWy92Mts3TXw" target="_rVHDgHkOEeiWy92Mts3TXw" fontName=".SF NS Text" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_rZgbUHkOEeiWy92Mts3TXw" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_rZgbUnkOEeiWy92Mts3TXw" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_rZhCYHkOEeiWy92Mts3TXw" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_rZgbU3kOEeiWy92Mts3TXw" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rZgbUXkOEeiWy92Mts3TXw" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=MQReceiver%5Bjcu%5Ename=MQReceiver.java%5Bjpack%5Ename=com.imooc.miaosha.rabbitmq%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=MiaoshaService%5Bjcu%5Ename=MiaoshaService.java%5Bjpack%5Ename=com.imooc.miaosha.service%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rZf0RHkOEeiWy92Mts3TXw" points="[-110, 66, 375, -830]$[-110, 896, 375, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-YEsHkOEeiWy92Mts3TXw" id="(0.4001617884040131,0.93)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-YrwHkOEeiWy92Mts3TXw" id="(0.6667681842397407,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_rZhCYXkOEeiWy92Mts3TXw" source="_rVHDgHkOEeiWy92Mts3TXw" target="_Ik-scHkOEeiWy92Mts3TXw" fontName=".SF NS Text" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_rZhpcHkOEeiWy92Mts3TXw" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_rZhpcnkOEeiWy92Mts3TXw" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_rZhpdHkOEeiWy92Mts3TXw" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_rZhpc3kOEeiWy92Mts3TXw" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rZhpcXkOEeiWy92Mts3TXw" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=MiaoshaService%5Bjcu%5Ename=MiaoshaService.java%5Bjpack%5Ename=com.imooc.miaosha.service%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=OrderService%5Bjcu%5Ename=OrderService.java%5Bjpack%5Ename=com.imooc.miaosha.service%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rZhCYnkOEeiWy92Mts3TXw" points="[-213, 68, -19, -1150]$[-213, 1218, -19, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-ZS0HkOEeiWy92Mts3TXw" id="(0.2501015840330237,0.9690812720848057)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-Z54HkOEeiWy92Mts3TXw" id="(0.75,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_rZiQgHkOEeiWy92Mts3TXw" source="_rVHDgHkOEeiWy92Mts3TXw" target="_gisCwHkOEeiWy92Mts3TXw" fontName=".SF NS Text" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_rZiQgnkOEeiWy92Mts3TXw" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_rZiQhHkOEeiWy92Mts3TXw" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_rZi3kXkOEeiWy92Mts3TXw" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_rZi3kHkOEeiWy92Mts3TXw" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rZiQg3kOEeiWy92Mts3TXw" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=MiaoshaService%5Bjcu%5Ename=MiaoshaService.java%5Bjpack%5Ename=com.imooc.miaosha.service%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GoodsService%5Bjcu%5Ename=GoodsService.java%5Bjpack%5Ename=com.imooc.miaosha.service%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rZiQgXkOEeiWy92Mts3TXw" points="[589, 68, -2, -1150]$[589, 1218, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-bIAHkOEeiWy92Mts3TXw" id="(0.7501015840330237,0.9690812720848057)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-bvEHkOEeiWy92Mts3TXw" id="(0.25,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_rZi3knkOEeiWy92Mts3TXw" source="_rVHDgHkOEeiWy92Mts3TXw" target="_A_80wHkOEeiWy92Mts3TXw" fontName=".SF NS Text" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_rZjeoHkOEeiWy92Mts3TXw" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_rZjeonkOEeiWy92Mts3TXw" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_rZjepHkOEeiWy92Mts3TXw" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_rZjeo3kOEeiWy92Mts3TXw" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rZjeoXkOEeiWy92Mts3TXw" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=MiaoshaService%5Bjcu%5Ename=MiaoshaService.java%5Bjpack%5Ename=com.imooc.miaosha.service%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=RedisService%5Bjcu%5Ename=RedisService.java%5Bjpack%5Ename=com.imooc.miaosha.redis%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=seckill%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rZi3k3kOEeiWy92Mts3TXw" points="[2423, -547, -4648, -2645]$[6457, -547, -614, -2645]$[6457, 2098, -614, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-c9MHkOEeiWy92Mts3TXw" id="(0.5001015840330237,0.9690812720848057)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-dkQHkOEeiWy92Mts3TXw" id="(0.33363633693609024,0.0)"/>
+  </edges>
+</umlnotation:UMLDiagram>

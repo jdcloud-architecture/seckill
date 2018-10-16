@@ -1,0 +1,46 @@
+
+  delimiter //
+create procedure init_goods() 
+begin 
+declare num int; 
+set num=1; 
+delete from goods;
+
+while num < 10001 do 
+insert into goods values(num, concat('iPhone', num), concat('iPhone title', num), '/img/iphonex.png', concat('iPhone detail', num), 8888, 10000); 
+set num=num+1;
+end while;
+end
+ //
+ 
+ delimiter //
+create procedure init_miaosha_goods() 
+begin 
+declare num int; 
+set num=1; 
+delete from miaosha_goods;
+
+while num < 101 do 
+insert into miaosha_goods values(num, num, 0.01, 1000, '2018-06-23 15:18:00', '2018-06-30 14:00:18'); 
+set num=num+1;
+end while;
+end
+ //
+ 
+ 
+
+  delimiter //
+create procedure init_miaosha_user() 
+begin 
+declare num int; 
+set num=1; 
+delete from miaosha_user;
+
+while num < 100001 do 
+INSERT INTO `miaosha_user` VALUES (13000000000+num, concat('user0', num), 'b7797cce01b4b131b433b6acf4add449', '1a2b3c', null, '2018-06-23 23:50:22', null, '1');
+set num=num+1;
+end while;
+end
+ //
+ 
+

@@ -1,0 +1,1559 @@
+2018-06-28 19:11:07,390 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2018-06-28 19:11:07,424 INFO o.a.j.JMeter: Loading user properties from: /Users/myang/tools/apache-jmeter-4.0/bin/user.properties
+2018-06-28 19:11:07,426 INFO o.a.j.JMeter: Loading system properties from: /Users/myang/tools/apache-jmeter-4.0/bin/system.properties
+2018-06-28 19:11:07,437 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-06-28 19:11:07,437 INFO o.a.j.JMeter: Version 4.0 r1823414
+2018-06-28 19:11:07,437 INFO o.a.j.JMeter: java.version=1.8.0_77
+2018-06-28 19:11:07,437 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2018-06-28 19:11:07,437 INFO o.a.j.JMeter: os.name=Mac OS X
+2018-06-28 19:11:07,437 INFO o.a.j.JMeter: os.arch=x86_64
+2018-06-28 19:11:07,437 INFO o.a.j.JMeter: os.version=10.13.5
+2018-06-28 19:11:07,437 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-06-28 19:11:07,438 INFO o.a.j.JMeter: Max memory     =1073741824
+2018-06-28 19:11:07,438 INFO o.a.j.JMeter: Available Processors =4
+2018-06-28 19:11:07,444 INFO o.a.j.JMeter: Default Locale=English (EN)
+2018-06-28 19:11:07,444 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2018-06-28 19:11:07,444 INFO o.a.j.JMeter: JMeterHome=/Users/myang/tools/apache-jmeter-4.0
+2018-06-28 19:11:07,445 INFO o.a.j.JMeter: user.dir  =/Users/myang/workspaces/elastic-app/seckill-lab06/jmeter
+2018-06-28 19:11:07,445 INFO o.a.j.JMeter: PWD       =/Users/myang/workspaces/elastic-app/seckill-lab06/jmeter
+2018-06-28 19:11:07,447 INFO o.a.j.JMeter: IP: 192.168.1.27 Name: bogon FullName: bogon
+2018-06-28 19:11:07,453 INFO o.a.j.s.FileServer: Default base='/Users/myang/workspaces/elastic-app/seckill-lab06/jmeter'
+2018-06-28 19:11:07,462 INFO o.a.j.s.FileServer: Set new base='/Users/myang/workspaces/elastic-app/seckill-lab06/jmeter'
+2018-06-28 19:11:07,686 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-06-28 19:11:07,710 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-06-28 19:11:07,716 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+2018-06-28 19:11:07,726 INFO o.a.j.s.SaveService: Loading file: jdcloud-seckill.jmx
+2018-06-28 19:11:07,793 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-06-28 19:11:07,793 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-06-28 19:11:07,793 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-06-28 19:11:07,793 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-06-28 19:11:07,793 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-06-28 19:11:07,793 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-06-28 19:11:07,844 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2018-06-28 19:11:07,890 INFO o.a.j.JMeter: Creating summariser <summary>
+2018-06-28 19:11:07,897 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-06-28 19:11:07,898 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-06-28 19:11:07,898 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-06-28 19:11:07,903 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-06-28 19:11:07,903 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-06-28 19:11:08,479 INFO o.a.j.JMeter: Running test (1530184268479)
+2018-06-28 19:11:08,535 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : seckill
+2018-06-28 19:11:08,535 INFO o.a.j.e.StandardJMeterEngine: Starting 500 threads for group seckill.
+2018-06-28 19:11:08,535 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-06-28 19:11:08,536 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=500 ramp-up=1 perThread=2.0 delayedStart=false
+2018-06-28 19:11:09,038 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-1
+2018-06-28 19:11:09,039 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-2
+2018-06-28 19:11:09,040 INFO o.a.j.s.FileServer: Stored: product.csv
+2018-06-28 19:11:09,041 INFO o.a.j.s.FileServer: Stored: tokens.txt
+2018-06-28 19:11:09,042 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-3
+2018-06-28 19:11:09,043 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-4
+2018-06-28 19:11:09,045 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-5
+2018-06-28 19:11:09,046 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-6
+2018-06-28 19:11:09,049 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-7
+2018-06-28 19:11:09,050 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-8
+2018-06-28 19:11:09,054 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-10
+2018-06-28 19:11:09,055 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-9
+2018-06-28 19:11:09,060 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-13
+2018-06-28 19:11:09,060 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-12
+2018-06-28 19:11:09,059 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-11
+2018-06-28 19:11:09,064 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-14
+2018-06-28 19:11:09,066 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-16
+2018-06-28 19:11:09,066 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-15
+2018-06-28 19:11:09,068 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-17
+2018-06-28 19:11:09,070 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = bogon
+2018-06-28 19:11:09,072 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-19
+2018-06-28 19:11:09,072 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-18
+2018-06-28 19:11:09,074 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-20
+2018-06-28 19:11:09,077 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-22
+2018-06-28 19:11:09,078 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-06-28 19:11:09,079 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-21
+2018-06-28 19:11:09,082 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-23
+2018-06-28 19:11:09,083 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-25
+2018-06-28 19:11:09,083 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-24
+2018-06-28 19:11:09,087 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-26
+2018-06-28 19:11:09,087 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-27
+2018-06-28 19:11:09,089 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-28
+2018-06-28 19:11:09,090 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-29
+2018-06-28 19:11:09,091 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-06-28 19:11:09,091 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-06-28 19:11:09,092 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-06-28 19:11:09,092 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-06-28 19:11:09,092 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-30
+2018-06-28 19:11:09,095 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-31
+2018-06-28 19:11:09,097 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-32
+2018-06-28 19:11:09,097 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-33
+2018-06-28 19:11:09,102 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-34
+2018-06-28 19:11:09,103 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-35
+2018-06-28 19:11:09,105 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-37
+2018-06-28 19:11:09,107 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-36
+2018-06-28 19:11:09,107 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-38
+2018-06-28 19:11:09,110 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-39
+2018-06-28 19:11:09,111 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-40
+2018-06-28 19:11:09,118 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-41
+2018-06-28 19:11:09,119 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-43
+2018-06-28 19:11:09,119 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-42
+2018-06-28 19:11:09,121 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-44
+2018-06-28 19:11:09,121 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-45
+2018-06-28 19:11:09,124 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-46
+2018-06-28 19:11:09,127 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-48
+2018-06-28 19:11:09,128 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-47
+2018-06-28 19:11:09,128 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-49
+2018-06-28 19:11:09,134 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-50
+2018-06-28 19:11:09,134 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-51
+2018-06-28 19:11:09,135 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-52
+2018-06-28 19:11:09,137 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-53
+2018-06-28 19:11:09,140 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-55
+2018-06-28 19:11:09,140 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-54
+2018-06-28 19:11:09,141 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-56
+2018-06-28 19:11:09,145 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-57
+2018-06-28 19:11:09,148 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-59
+2018-06-28 19:11:09,148 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-58
+2018-06-28 19:11:09,149 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-60
+2018-06-28 19:11:09,151 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-61
+2018-06-28 19:11:09,155 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-63
+2018-06-28 19:11:09,156 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-62
+2018-06-28 19:11:09,157 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-64
+2018-06-28 19:11:09,161 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-65
+2018-06-28 19:11:09,162 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-67
+2018-06-28 19:11:09,163 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-66
+2018-06-28 19:11:09,166 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-68
+2018-06-28 19:11:09,167 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-69
+2018-06-28 19:11:09,169 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-70
+2018-06-28 19:11:09,171 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-71
+2018-06-28 19:11:09,172 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-72
+2018-06-28 19:11:09,177 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-74
+2018-06-28 19:11:09,178 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-75
+2018-06-28 19:11:09,178 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-73
+2018-06-28 19:11:09,179 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-76
+2018-06-28 19:11:09,181 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-77
+2018-06-28 19:11:09,182 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-112
+2018-06-28 19:11:09,183 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-78
+2018-06-28 19:11:09,185 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-79
+2018-06-28 19:11:09,188 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-80
+2018-06-28 19:11:09,189 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-81
+2018-06-28 19:11:09,191 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-82
+2018-06-28 19:11:09,193 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-83
+2018-06-28 19:11:09,199 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-84
+2018-06-28 19:11:09,199 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-85
+2018-06-28 19:11:09,199 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-86
+2018-06-28 19:11:09,201 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-87
+2018-06-28 19:11:09,203 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-88
+2018-06-28 19:11:09,204 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-89
+2018-06-28 19:11:09,206 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-90
+2018-06-28 19:11:09,206 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-125
+2018-06-28 19:11:09,209 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-91
+2018-06-28 19:11:09,211 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-93
+2018-06-28 19:11:09,212 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-92
+2018-06-28 19:11:09,215 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-128
+2018-06-28 19:11:09,215 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-94
+2018-06-28 19:11:09,217 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-95
+2018-06-28 19:11:09,217 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-96
+2018-06-28 19:11:09,218 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-129
+2018-06-28 19:11:09,220 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-98
+2018-06-28 19:11:09,222 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-132
+2018-06-28 19:11:09,222 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-97
+2018-06-28 19:11:09,222 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-99
+2018-06-28 19:11:09,225 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-135
+2018-06-28 19:11:09,225 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-101
+2018-06-28 19:11:09,226 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-137
+2018-06-28 19:11:09,226 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-100
+2018-06-28 19:11:09,228 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-102
+2018-06-28 19:11:09,229 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-103
+2018-06-28 19:11:09,230 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-104
+2018-06-28 19:11:09,231 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-138
+2018-06-28 19:11:09,234 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-106
+2018-06-28 19:11:09,234 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-105
+2018-06-28 19:11:09,235 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-140
+2018-06-28 19:11:09,236 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-107
+2018-06-28 19:11:09,237 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-141
+2018-06-28 19:11:09,238 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-108
+2018-06-28 19:11:09,240 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-109
+2018-06-28 19:11:09,242 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-111
+2018-06-28 19:11:09,245 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-110
+2018-06-28 19:11:09,248 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-114
+2018-06-28 19:11:09,251 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-113
+2018-06-28 19:11:09,256 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-116
+2018-06-28 19:11:09,258 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-117
+2018-06-28 19:11:09,262 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-118
+2018-06-28 19:11:09,264 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-120
+2018-06-28 19:11:09,266 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-115
+2018-06-28 19:11:09,267 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-121
+2018-06-28 19:11:09,268 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-122
+2018-06-28 19:11:09,271 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-123
+2018-06-28 19:11:09,271 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-124
+2018-06-28 19:11:09,272 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-126
+2018-06-28 19:11:09,273 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-119
+2018-06-28 19:11:09,279 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-127
+2018-06-28 19:11:09,284 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-130
+2018-06-28 19:11:09,287 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-131
+2018-06-28 19:11:09,291 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-134
+2018-06-28 19:11:09,296 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-136
+2018-06-28 19:11:09,335 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-149
+2018-06-28 19:11:09,340 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-150
+2018-06-28 19:11:09,343 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-151
+2018-06-28 19:11:09,343 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-142
+2018-06-28 19:11:09,343 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-148
+2018-06-28 19:11:09,344 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-146
+2018-06-28 19:11:09,344 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-147
+2018-06-28 19:11:09,345 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-144
+2018-06-28 19:11:09,345 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-152
+2018-06-28 19:11:09,344 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-145
+2018-06-28 19:11:09,345 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-143
+2018-06-28 19:11:09,346 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-154
+2018-06-28 19:11:09,346 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-139
+2018-06-28 19:11:09,346 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-153
+2018-06-28 19:11:09,346 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-133
+2018-06-28 19:11:09,424 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-155
+2018-06-28 19:11:09,426 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-156
+2018-06-28 19:11:09,427 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-157
+2018-06-28 19:11:09,427 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-158
+2018-06-28 19:11:09,427 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-159
+2018-06-28 19:11:09,429 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-160
+2018-06-28 19:11:09,429 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-161
+2018-06-28 19:11:09,429 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-162
+2018-06-28 19:11:09,429 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-163
+2018-06-28 19:11:09,430 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-164
+2018-06-28 19:11:09,430 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-165
+2018-06-28 19:11:09,431 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-168
+2018-06-28 19:11:09,431 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-167
+2018-06-28 19:11:09,432 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-169
+2018-06-28 19:11:09,432 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-170
+2018-06-28 19:11:09,432 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-171
+2018-06-28 19:11:09,433 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-172
+2018-06-28 19:11:09,433 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-173
+2018-06-28 19:11:09,433 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-174
+2018-06-28 19:11:09,435 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-175
+2018-06-28 19:11:09,435 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-177
+2018-06-28 19:11:09,435 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-178
+2018-06-28 19:11:09,435 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-180
+2018-06-28 19:11:09,437 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-181
+2018-06-28 19:11:09,437 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-182
+2018-06-28 19:11:09,435 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-179
+2018-06-28 19:11:09,438 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-183
+2018-06-28 19:11:09,435 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-176
+2018-06-28 19:11:09,438 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-184
+2018-06-28 19:11:09,430 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-166
+2018-06-28 19:11:09,442 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-185
+2018-06-28 19:11:09,446 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-186
+2018-06-28 19:11:09,449 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-187
+2018-06-28 19:11:09,451 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-188
+2018-06-28 19:11:09,456 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-189
+2018-06-28 19:11:09,459 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-190
+2018-06-28 19:11:09,463 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-192
+2018-06-28 19:11:09,465 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-191
+2018-06-28 19:11:09,469 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-194
+2018-06-28 19:11:09,471 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-193
+2018-06-28 19:11:09,474 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-195
+2018-06-28 19:11:09,490 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-197
+2018-06-28 19:11:09,494 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-201
+2018-06-28 19:11:09,492 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-196
+2018-06-28 19:11:09,498 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-202
+2018-06-28 19:11:09,499 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-203
+2018-06-28 19:11:09,494 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-200
+2018-06-28 19:11:09,494 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-199
+2018-06-28 19:11:09,493 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-198
+2018-06-28 19:11:09,502 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-204
+2018-06-28 19:11:09,504 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-205
+2018-06-28 19:11:09,507 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-206
+2018-06-28 19:11:09,512 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-208
+2018-06-28 19:11:09,512 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-207
+2018-06-28 19:11:09,514 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-209
+2018-06-28 19:11:09,518 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-210
+2018-06-28 19:11:09,524 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-211
+2018-06-28 19:11:09,531 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-214
+2018-06-28 19:11:09,532 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-215
+2018-06-28 19:11:09,537 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-216
+2018-06-28 19:11:09,539 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-213
+2018-06-28 19:11:09,550 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-217
+2018-06-28 19:11:09,551 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-218
+2018-06-28 19:11:09,550 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-212
+2018-06-28 19:11:09,560 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-219
+2018-06-28 19:11:09,565 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-220
+2018-06-28 19:11:09,578 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-221
+2018-06-28 19:11:09,586 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-222
+2018-06-28 19:11:09,594 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-223
+2018-06-28 19:11:09,601 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-224
+2018-06-28 19:11:09,609 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-225
+2018-06-28 19:11:09,611 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-226
+2018-06-28 19:11:09,618 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-227
+2018-06-28 19:11:09,628 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-228
+2018-06-28 19:11:09,631 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-229
+2018-06-28 19:11:09,634 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-230
+2018-06-28 19:11:09,659 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-231
+2018-06-28 19:11:09,661 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-232
+2018-06-28 19:11:09,700 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-233
+2018-06-28 19:11:09,706 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-234
+2018-06-28 19:11:09,708 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-235
+2018-06-28 19:11:09,712 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-236
+2018-06-28 19:11:09,716 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-237
+2018-06-28 19:11:09,720 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-238
+2018-06-28 19:11:09,721 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-239
+2018-06-28 19:11:09,726 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-240
+2018-06-28 19:11:09,731 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-241
+2018-06-28 19:11:09,733 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-242
+2018-06-28 19:11:09,737 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-243
+2018-06-28 19:11:09,742 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-244
+2018-06-28 19:11:09,742 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-245
+2018-06-28 19:11:09,744 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-246
+2018-06-28 19:11:09,750 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-247
+2018-06-28 19:11:09,750 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-248
+2018-06-28 19:11:09,756 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-249
+2018-06-28 19:11:09,759 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-250
+2018-06-28 19:11:09,761 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-251
+2018-06-28 19:11:09,767 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-252
+2018-06-28 19:11:09,770 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-253
+2018-06-28 19:11:09,770 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-254
+2018-06-28 19:11:09,773 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-255
+2018-06-28 19:11:09,778 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-256
+2018-06-28 19:11:09,778 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-257
+2018-06-28 19:11:09,782 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-258
+2018-06-28 19:11:09,785 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-259
+2018-06-28 19:11:09,789 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-260
+2018-06-28 19:11:09,790 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-261
+2018-06-28 19:11:09,798 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-262
+2018-06-28 19:11:09,800 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-263
+2018-06-28 19:11:09,800 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-264
+2018-06-28 19:11:09,803 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-265
+2018-06-28 19:11:09,805 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-266
+2018-06-28 19:11:09,810 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-267
+2018-06-28 19:11:09,815 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-268
+2018-06-28 19:11:09,816 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-269
+2018-06-28 19:11:09,821 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-270
+2018-06-28 19:11:09,822 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-272
+2018-06-28 19:11:09,822 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-271
+2018-06-28 19:11:09,827 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-273
+2018-06-28 19:11:09,829 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-275
+2018-06-28 19:11:09,831 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-274
+2018-06-28 19:11:09,832 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-276
+2018-06-28 19:11:09,836 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-278
+2018-06-28 19:11:09,837 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-277
+2018-06-28 19:11:09,841 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-279
+2018-06-28 19:11:09,842 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-280
+2018-06-28 19:11:09,845 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-281
+2018-06-28 19:11:09,847 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-282
+2018-06-28 19:11:09,851 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-283
+2018-06-28 19:11:09,861 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-284
+2018-06-28 19:11:09,863 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-285
+2018-06-28 19:11:09,866 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-286
+2018-06-28 19:11:09,866 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-287
+2018-06-28 19:11:09,871 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-288
+2018-06-28 19:11:09,872 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-289
+2018-06-28 19:11:09,873 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-290
+2018-06-28 19:11:09,876 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-291
+2018-06-28 19:11:09,880 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-292
+2018-06-28 19:11:09,883 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-293
+2018-06-28 19:11:09,884 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-295
+2018-06-28 19:11:09,885 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-294
+2018-06-28 19:11:09,889 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-296
+2018-06-28 19:11:09,890 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-297
+2018-06-28 19:11:09,892 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-298
+2018-06-28 19:11:09,895 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-299
+2018-06-28 19:11:09,897 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-300
+2018-06-28 19:11:09,899 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-301
+2018-06-28 19:11:09,938 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-302
+2018-06-28 19:11:10,182 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-303
+2018-06-28 19:11:10,185 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-304
+2018-06-28 19:11:10,195 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-305
+2018-06-28 19:11:10,195 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-306
+2018-06-28 19:11:10,200 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-307
+2018-06-28 19:11:10,207 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-308
+2018-06-28 19:11:10,211 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-309
+2018-06-28 19:11:10,218 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-310
+2018-06-28 19:11:10,224 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-311
+2018-06-28 19:11:10,229 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-312
+2018-06-28 19:11:10,233 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-313
+2018-06-28 19:11:10,241 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-314
+2018-06-28 19:11:10,247 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-315
+2018-06-28 19:11:10,249 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-316
+2018-06-28 19:11:10,252 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-317
+2018-06-28 19:11:10,255 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-318
+2018-06-28 19:11:10,258 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-319
+2018-06-28 19:11:10,261 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-320
+2018-06-28 19:11:10,263 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-321
+2018-06-28 19:11:10,267 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-322
+2018-06-28 19:11:10,271 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-324
+2018-06-28 19:11:10,273 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-323
+2018-06-28 19:11:10,275 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-325
+2018-06-28 19:11:10,279 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-326
+2018-06-28 19:11:10,282 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-327
+2018-06-28 19:11:10,283 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-328
+2018-06-28 19:11:10,286 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-329
+2018-06-28 19:11:10,289 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-330
+2018-06-28 19:11:10,293 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-331
+2018-06-28 19:11:10,296 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-332
+2018-06-28 19:11:10,297 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-333
+2018-06-28 19:11:10,304 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-334
+2018-06-28 19:11:10,308 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-335
+2018-06-28 19:11:10,310 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-336
+2018-06-28 19:11:10,315 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-337
+2018-06-28 19:11:10,315 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-338
+2018-06-28 19:11:10,317 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-339
+2018-06-28 19:11:10,318 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-340
+2018-06-28 19:11:10,323 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-341
+2018-06-28 19:11:10,325 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-342
+2018-06-28 19:11:10,327 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-343
+2018-06-28 19:11:10,331 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-344
+2018-06-28 19:11:10,335 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-345
+2018-06-28 19:11:10,337 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-346
+2018-06-28 19:11:10,345 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-348
+2018-06-28 19:11:10,347 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-347
+2018-06-28 19:11:10,348 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-349
+2018-06-28 19:11:10,351 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-350
+2018-06-28 19:11:10,358 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-352
+2018-06-28 19:11:10,360 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-353
+2018-06-28 19:11:10,369 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-357
+2018-06-28 19:11:10,364 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-354
+2018-06-28 19:11:10,364 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-355
+2018-06-28 19:11:10,395 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-365
+2018-06-28 19:11:10,395 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-366
+2018-06-28 19:11:10,396 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-358
+2018-06-28 19:11:10,396 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-351
+2018-06-28 19:11:10,397 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-367
+2018-06-28 19:11:10,397 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-356
+2018-06-28 19:11:10,401 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-368
+2018-06-28 19:11:10,408 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-369
+2018-06-28 19:11:10,411 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-371
+2018-06-28 19:11:10,408 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-370
+2018-06-28 19:11:10,412 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-372
+2018-06-28 19:11:10,414 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-374
+2018-06-28 19:11:10,414 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-373
+2018-06-28 19:11:10,416 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-359
+2018-06-28 19:11:10,416 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-364
+2018-06-28 19:11:10,417 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-375
+2018-06-28 19:11:10,386 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-363
+2018-06-28 19:11:10,423 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-376
+2018-06-28 19:11:10,425 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-377
+2018-06-28 19:11:10,435 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-362
+2018-06-28 19:11:10,435 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-381
+2018-06-28 19:11:10,457 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-388
+2018-06-28 19:11:10,457 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-389
+2018-06-28 19:11:10,458 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-382
+2018-06-28 19:11:10,383 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-360
+2018-06-28 19:11:10,459 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-361
+2018-06-28 19:11:10,460 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-390
+2018-06-28 19:11:10,463 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-386
+2018-06-28 19:11:10,464 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-391
+2018-06-28 19:11:10,465 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-392
+2018-06-28 19:11:10,468 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-387
+2018-06-28 19:11:10,469 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-393
+2018-06-28 19:11:10,471 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-394
+2018-06-28 19:11:10,473 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-380
+2018-06-28 19:11:10,474 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-395
+2018-06-28 19:11:10,476 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-383
+2018-06-28 19:11:10,477 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-396
+2018-06-28 19:11:10,480 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-397
+2018-06-28 19:11:10,480 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-379
+2018-06-28 19:11:10,481 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-378
+2018-06-28 19:11:10,483 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-398
+2018-06-28 19:11:10,483 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-399
+2018-06-28 19:11:10,485 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-384
+2018-06-28 19:11:10,488 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-400
+2018-06-28 19:11:10,489 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-401
+2018-06-28 19:11:10,492 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-402
+2018-06-28 19:11:10,495 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-403
+2018-06-28 19:11:10,497 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-385
+2018-06-28 19:11:10,499 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-405
+2018-06-28 19:11:10,500 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-404
+2018-06-28 19:11:10,502 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-406
+2018-06-28 19:11:10,504 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-407
+2018-06-28 19:11:10,508 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-408
+2018-06-28 19:11:10,509 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-409
+2018-06-28 19:11:10,511 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-410
+2018-06-28 19:11:10,518 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-411
+2018-06-28 19:11:10,518 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-412
+2018-06-28 19:11:10,524 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-06-28 19:11:10,524 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-06-28 19:11:10,525 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-413
+2018-06-28 19:11:10,527 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-414
+2018-06-28 19:11:10,530 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-415
+2018-06-28 19:11:10,533 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-416
+2018-06-28 19:11:10,536 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-417
+2018-06-28 19:11:10,540 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-418
+2018-06-28 19:11:10,588 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-419
+2018-06-28 19:11:10,664 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-420
+2018-06-28 19:11:10,666 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-421
+2018-06-28 19:11:10,684 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-422
+2018-06-28 19:11:10,747 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-423
+2018-06-28 19:11:10,749 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-424
+2018-06-28 19:11:10,757 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-425
+2018-06-28 19:11:10,764 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-426
+2018-06-28 19:11:10,767 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-428
+2018-06-28 19:11:10,767 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-427
+2018-06-28 19:11:10,770 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-429
+2018-06-28 19:11:10,800 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-430
+2018-06-28 19:11:10,850 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-431
+2018-06-28 19:11:10,856 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-432
+2018-06-28 19:11:10,860 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-433
+2018-06-28 19:11:10,867 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-434
+2018-06-28 19:11:10,869 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-435
+2018-06-28 19:11:10,872 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-436
+2018-06-28 19:11:10,878 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-437
+2018-06-28 19:11:10,880 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-438
+2018-06-28 19:11:10,892 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-439
+2018-06-28 19:11:10,900 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-440
+2018-06-28 19:11:10,903 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-441
+2018-06-28 19:11:10,913 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-442
+2018-06-28 19:11:10,932 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-444
+2018-06-28 19:11:10,934 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-443
+2018-06-28 19:11:10,937 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-445
+2018-06-28 19:11:10,943 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-446
+2018-06-28 19:11:10,947 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-447
+2018-06-28 19:11:10,949 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-448
+2018-06-28 19:11:10,951 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-449
+2018-06-28 19:11:10,956 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-450
+2018-06-28 19:11:10,958 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-451
+2018-06-28 19:11:10,967 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-452
+2018-06-28 19:11:10,968 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-453
+2018-06-28 19:11:10,971 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-454
+2018-06-28 19:11:10,973 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-455
+2018-06-28 19:11:10,974 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-456
+2018-06-28 19:11:10,980 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-458
+2018-06-28 19:11:10,980 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-457
+2018-06-28 19:11:10,985 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-459
+2018-06-28 19:11:10,989 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-460
+2018-06-28 19:11:10,995 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-462
+2018-06-28 19:11:10,995 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-461
+2018-06-28 19:11:11,000 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-463
+2018-06-28 19:11:11,002 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-464
+2018-06-28 19:11:11,012 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-465
+2018-06-28 19:11:11,097 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-466
+2018-06-28 19:11:11,257 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-467
+2018-06-28 19:11:11,327 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-468
+2018-06-28 19:11:11,397 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-469
+2018-06-28 19:11:11,447 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-470
+2018-06-28 19:11:11,454 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-472
+2018-06-28 19:11:11,454 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-471
+2018-06-28 19:11:11,457 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-473
+2018-06-28 19:11:11,462 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-474
+2018-06-28 19:11:11,467 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-475
+2018-06-28 19:11:11,469 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-476
+2018-06-28 19:11:11,519 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-498
+2018-06-28 19:11:11,524 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-499
+2018-06-28 19:11:11,525 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-497
+2018-06-28 19:11:11,528 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-500
+2018-06-28 19:11:11,529 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-496
+2018-06-28 19:11:11,535 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-495
+2018-06-28 19:11:11,560 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-479
+2018-06-28 19:11:11,562 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-478
+2018-06-28 19:11:11,578 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-477
+2018-06-28 19:11:11,587 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-480
+2018-06-28 19:11:11,614 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-481
+2018-06-28 19:11:11,616 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-482
+2018-06-28 19:11:11,617 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-483
+2018-06-28 19:11:11,618 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-484
+2018-06-28 19:11:11,620 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-485
+2018-06-28 19:11:11,624 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-486
+2018-06-28 19:11:11,626 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-487
+2018-06-28 19:11:11,633 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-488
+2018-06-28 19:11:11,634 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-489
+2018-06-28 19:11:11,634 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-490
+2018-06-28 19:11:11,637 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-491
+2018-06-28 19:11:11,641 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-492
+2018-06-28 19:11:11,646 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-493
+2018-06-28 19:11:11,647 INFO o.a.j.t.JMeterThread: Thread started: seckill 1-494
+2018-06-28 19:11:24,591 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-257
+2018-06-28 19:11:24,591 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-257
+2018-06-28 19:11:24,592 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-424
+2018-06-28 19:11:24,592 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-424
+2018-06-28 19:11:24,600 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-277
+2018-06-28 19:11:24,600 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-293
+2018-06-28 19:11:24,600 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-277
+2018-06-28 19:11:24,601 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-101
+2018-06-28 19:11:24,601 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-101
+2018-06-28 19:11:24,602 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-323
+2018-06-28 19:11:24,602 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-323
+2018-06-28 19:11:24,602 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-249
+2018-06-28 19:11:24,602 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-69
+2018-06-28 19:11:24,603 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-249
+2018-06-28 19:11:24,603 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-134
+2018-06-28 19:11:24,603 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-217
+2018-06-28 19:11:24,603 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-134
+2018-06-28 19:11:24,603 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-217
+2018-06-28 19:11:24,603 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-200
+2018-06-28 19:11:24,603 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-200
+2018-06-28 19:11:24,604 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-405
+2018-06-28 19:11:24,604 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-405
+2018-06-28 19:11:24,600 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-301
+2018-06-28 19:11:24,605 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-301
+2018-06-28 19:11:24,606 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-293
+2018-06-28 19:11:24,612 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-69
+2018-06-28 19:11:25,295 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-66
+2018-06-28 19:11:25,295 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-66
+2018-06-28 19:11:25,297 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-309
+2018-06-28 19:11:25,297 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-309
+2018-06-28 19:11:25,315 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-276
+2018-06-28 19:11:25,315 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-314
+2018-06-28 19:11:25,315 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-314
+2018-06-28 19:11:25,315 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-276
+2018-06-28 19:11:25,316 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-178
+2018-06-28 19:11:25,317 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-218
+2018-06-28 19:11:25,317 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-218
+2018-06-28 19:11:25,318 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-178
+2018-06-28 19:11:25,318 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-47
+2018-06-28 19:11:25,318 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-47
+2018-06-28 19:11:25,325 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-91
+2018-06-28 19:11:25,325 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-91
+2018-06-28 19:11:25,316 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-192
+2018-06-28 19:11:25,325 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-192
+2018-06-28 19:11:25,326 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-383
+2018-06-28 19:11:25,326 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-383
+2018-06-28 19:11:25,326 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-72
+2018-06-28 19:11:25,326 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-72
+2018-06-28 19:11:25,327 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-256
+2018-06-28 19:11:25,327 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-256
+2018-06-28 19:11:25,340 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-121
+2018-06-28 19:11:25,340 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-121
+2018-06-28 19:11:25,341 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-271
+2018-06-28 19:11:25,341 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-271
+2018-06-28 19:11:25,345 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-443
+2018-06-28 19:11:25,345 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-443
+2018-06-28 19:11:25,349 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-329
+2018-06-28 19:11:25,349 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-329
+2018-06-28 19:11:25,350 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-291
+2018-06-28 19:11:25,350 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-291
+2018-06-28 19:11:25,360 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-15
+2018-06-28 19:11:25,360 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-15
+2018-06-28 19:11:25,368 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-185
+2018-06-28 19:11:25,368 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-185
+2018-06-28 19:11:25,386 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-166
+2018-06-28 19:11:25,386 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-8
+2018-06-28 19:11:25,386 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-8
+2018-06-28 19:11:25,386 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-166
+2018-06-28 19:11:25,387 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-263
+2018-06-28 19:11:25,388 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-263
+2018-06-28 19:11:25,389 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-130
+2018-06-28 19:11:25,389 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-412
+2018-06-28 19:11:25,389 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-130
+2018-06-28 19:11:25,389 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-412
+2018-06-28 19:11:25,389 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-24
+2018-06-28 19:11:25,389 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-24
+2018-06-28 19:11:25,390 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-103
+2018-06-28 19:11:25,390 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-103
+2018-06-28 19:11:25,391 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-238
+2018-06-28 19:11:25,391 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-238
+2018-06-28 19:11:25,391 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-14
+2018-06-28 19:11:25,391 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-14
+2018-06-28 19:11:25,391 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-182
+2018-06-28 19:11:25,391 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-177
+2018-06-28 19:11:25,391 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-177
+2018-06-28 19:11:25,392 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-182
+2018-06-28 19:11:25,392 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-206
+2018-06-28 19:11:25,392 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-206
+2018-06-28 19:11:25,392 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-169
+2018-06-28 19:11:25,392 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-169
+2018-06-28 19:11:25,393 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-287
+2018-06-28 19:11:25,393 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-287
+2018-06-28 19:11:25,394 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-213
+2018-06-28 19:11:25,394 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-213
+2018-06-28 19:11:25,399 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-199
+2018-06-28 19:11:25,399 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-199
+2018-06-28 19:11:25,399 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-45
+2018-06-28 19:11:25,399 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-215
+2018-06-28 19:11:25,400 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-215
+2018-06-28 19:11:25,400 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-45
+2018-06-28 19:11:25,400 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-118
+2018-06-28 19:11:25,400 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-118
+2018-06-28 19:11:25,407 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-123
+2018-06-28 19:11:25,407 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-123
+2018-06-28 19:11:25,993 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-202
+2018-06-28 19:11:25,999 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-202
+2018-06-28 19:11:26,004 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-191
+2018-06-28 19:11:26,004 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-191
+2018-06-28 19:11:26,004 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-176
+2018-06-28 19:11:26,005 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-176
+2018-06-28 19:11:26,006 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-19
+2018-06-28 19:11:26,006 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-19
+2018-06-28 19:11:26,007 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-186
+2018-06-28 19:11:26,007 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-186
+2018-06-28 19:11:26,008 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-239
+2018-06-28 19:11:26,008 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-239
+2018-06-28 19:11:26,009 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-148
+2018-06-28 19:11:26,009 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-148
+2018-06-28 19:11:26,009 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-108
+2018-06-28 19:11:26,009 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-259
+2018-06-28 19:11:26,009 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-236
+2018-06-28 19:11:26,009 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-236
+2018-06-28 19:11:26,010 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-4
+2018-06-28 19:11:26,010 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-4
+2018-06-28 19:11:26,010 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-184
+2018-06-28 19:11:26,010 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-184
+2018-06-28 19:11:26,017 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-122
+2018-06-28 19:11:26,018 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-122
+2018-06-28 19:11:26,020 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-163
+2018-06-28 19:11:26,020 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-163
+2018-06-28 19:11:26,021 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-316
+2018-06-28 19:11:26,021 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-316
+2018-06-28 19:11:26,022 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-242
+2018-06-28 19:11:26,022 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-242
+2018-06-28 19:11:26,023 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-296
+2018-06-28 19:11:26,023 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-296
+2018-06-28 19:11:26,024 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-290
+2018-06-28 19:11:26,024 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-290
+2018-06-28 19:11:26,024 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-232
+2018-06-28 19:11:26,024 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-232
+2018-06-28 19:11:26,025 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-313
+2018-06-28 19:11:26,025 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-313
+2018-06-28 19:11:26,025 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-144
+2018-06-28 19:11:26,025 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-152
+2018-06-28 19:11:26,025 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-144
+2018-06-28 19:11:26,025 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-152
+2018-06-28 19:11:26,028 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-87
+2018-06-28 19:11:26,029 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-87
+2018-06-28 19:11:26,029 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-336
+2018-06-28 19:11:26,029 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-336
+2018-06-28 19:11:26,030 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-279
+2018-06-28 19:11:26,030 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-279
+2018-06-28 19:11:26,031 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-264
+2018-06-28 19:11:26,031 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-264
+2018-06-28 19:11:26,033 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-196
+2018-06-28 19:11:26,033 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-160
+2018-06-28 19:11:26,033 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-196
+2018-06-28 19:11:26,035 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-328
+2018-06-28 19:11:26,035 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-328
+2018-06-28 19:11:26,036 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-237
+2018-06-28 19:11:26,036 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-237
+2018-06-28 19:11:26,037 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-269
+2018-06-28 19:11:26,037 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-303
+2018-06-28 19:11:26,037 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-278
+2018-06-28 19:11:26,037 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-303
+2018-06-28 19:11:26,037 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-139
+2018-06-28 19:11:26,037 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-139
+2018-06-28 19:11:26,037 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-243
+2018-06-28 19:11:26,038 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-386
+2018-06-28 19:11:26,038 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-243
+2018-06-28 19:11:26,038 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-386
+2018-06-28 19:11:26,038 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-62
+2018-06-28 19:11:26,038 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-62
+2018-06-28 19:11:26,039 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-145
+2018-06-28 19:11:26,039 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-145
+2018-06-28 19:11:26,039 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-382
+2018-06-28 19:11:26,039 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-382
+2018-06-28 19:11:26,040 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-120
+2018-06-28 19:11:26,045 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-120
+2018-06-28 19:11:26,009 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-246
+2018-06-28 19:11:26,046 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-246
+2018-06-28 19:11:26,046 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-108
+2018-06-28 19:11:26,043 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-220
+2018-06-28 19:11:26,046 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-220
+2018-06-28 19:11:26,042 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-147
+2018-06-28 19:11:26,042 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-222
+2018-06-28 19:11:26,042 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-321
+2018-06-28 19:11:26,047 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-222
+2018-06-28 19:11:26,047 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-321
+2018-06-28 19:11:26,042 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-413
+2018-06-28 19:11:26,047 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-413
+2018-06-28 19:11:26,041 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-187
+2018-06-28 19:11:26,047 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-187
+2018-06-28 19:11:26,041 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-427
+2018-06-28 19:11:26,048 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-427
+2018-06-28 19:11:26,041 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-294
+2018-06-28 19:11:26,041 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-48
+2018-06-28 19:11:26,048 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-294
+2018-06-28 19:11:26,040 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-260
+2018-06-28 19:11:26,048 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-260
+2018-06-28 19:11:26,048 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-278
+2018-06-28 19:11:26,049 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-269
+2018-06-28 19:11:26,033 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-117
+2018-06-28 19:11:26,049 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-117
+2018-06-28 19:11:26,049 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-160
+2018-06-28 19:11:26,025 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-126
+2018-06-28 19:11:26,025 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-247
+2018-06-28 19:11:26,049 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-126
+2018-06-28 19:11:26,009 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-259
+2018-06-28 19:11:26,049 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-247
+2018-06-28 19:11:26,049 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-48
+2018-06-28 19:11:26,047 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-147
+2018-06-28 19:11:26,691 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-258
+2018-06-28 19:11:26,691 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-258
+2018-06-28 19:11:26,723 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-308
+2018-06-28 19:11:26,723 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-308
+2018-06-28 19:11:26,724 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-135
+2018-06-28 19:11:26,724 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-135
+2018-06-28 19:11:26,724 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-92
+2018-06-28 19:11:26,724 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-92
+2018-06-28 19:11:26,724 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-255
+2018-06-28 19:11:26,725 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-255
+2018-06-28 19:11:26,726 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-285
+2018-06-28 19:11:26,726 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-399
+2018-06-28 19:11:26,726 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-285
+2018-06-28 19:11:26,726 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-399
+2018-06-28 19:11:26,730 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-44
+2018-06-28 19:11:26,730 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-44
+2018-06-28 19:11:26,730 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-438
+2018-06-28 19:11:26,731 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-438
+2018-06-28 19:11:26,731 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-165
+2018-06-28 19:11:26,732 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-165
+2018-06-28 19:11:26,738 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-261
+2018-06-28 19:11:26,740 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-261
+2018-06-28 19:11:26,739 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-13
+2018-06-28 19:11:26,743 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-13
+2018-06-28 19:11:26,749 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-89
+2018-06-28 19:11:26,749 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-89
+2018-06-28 19:11:26,750 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-272
+2018-06-28 19:11:26,750 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-33
+2018-06-28 19:11:26,750 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-272
+2018-06-28 19:11:26,751 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-274
+2018-06-28 19:11:26,751 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-228
+2018-06-28 19:11:26,751 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-274
+2018-06-28 19:11:26,751 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-268
+2018-06-28 19:11:26,751 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-268
+2018-06-28 19:11:26,752 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-245
+2018-06-28 19:11:26,752 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-245
+2018-06-28 19:11:26,752 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-9
+2018-06-28 19:11:26,752 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-141
+2018-06-28 19:11:26,752 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-9
+2018-06-28 19:11:26,753 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-141
+2018-06-28 19:11:26,753 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-2
+2018-06-28 19:11:26,753 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-2
+2018-06-28 19:11:26,753 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-151
+2018-06-28 19:11:26,753 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-151
+2018-06-28 19:11:26,754 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-25
+2018-06-28 19:11:26,754 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-25
+2018-06-28 19:11:26,754 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-319
+2018-06-28 19:11:26,754 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-319
+2018-06-28 19:11:26,755 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-110
+2018-06-28 19:11:26,755 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-110
+2018-06-28 19:11:26,756 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-275
+2018-06-28 19:11:26,756 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-275
+2018-06-28 19:11:26,757 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-183
+2018-06-28 19:11:26,757 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-183
+2018-06-28 19:11:26,758 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-188
+2018-06-28 19:11:26,758 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-340
+2018-06-28 19:11:26,758 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-340
+2018-06-28 19:11:26,758 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-392
+2018-06-28 19:11:26,758 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-392
+2018-06-28 19:11:26,758 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-80
+2018-06-28 19:11:26,758 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-80
+2018-06-28 19:11:26,759 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-195
+2018-06-28 19:11:26,759 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-195
+2018-06-28 19:11:26,760 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-33
+2018-06-28 19:11:26,758 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-111
+2018-06-28 19:11:26,758 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-188
+2018-06-28 19:11:26,753 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-157
+2018-06-28 19:11:26,761 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-111
+2018-06-28 19:11:26,753 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-96
+2018-06-28 19:11:26,761 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-157
+2018-06-28 19:11:26,762 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-96
+2018-06-28 19:11:26,762 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-228
+2018-06-28 19:11:27,386 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-295
+2018-06-28 19:11:27,387 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-295
+2018-06-28 19:11:27,400 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-216
+2018-06-28 19:11:27,400 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-216
+2018-06-28 19:11:27,405 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-365
+2018-06-28 19:11:27,405 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-365
+2018-06-28 19:11:27,413 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-465
+2018-06-28 19:11:27,413 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-465
+2018-06-28 19:11:27,415 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-400
+2018-06-28 19:11:27,416 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-400
+2018-06-28 19:11:27,416 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-341
+2018-06-28 19:11:27,416 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-341
+2018-06-28 19:11:27,416 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-162
+2018-06-28 19:11:27,417 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-162
+2018-06-28 19:11:27,417 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-198
+2018-06-28 19:11:27,417 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-198
+2018-06-28 19:11:27,417 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-307
+2018-06-28 19:11:27,417 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-307
+2018-06-28 19:11:27,419 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-18
+2018-06-28 19:11:27,419 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-18
+2018-06-28 19:11:27,420 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-114
+2018-06-28 19:11:27,420 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-114
+2018-06-28 19:11:27,420 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-226
+2018-06-28 19:11:27,420 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-226
+2018-06-28 19:11:27,427 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-81
+2018-06-28 19:11:27,427 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-420
+2018-06-28 19:11:27,427 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-81
+2018-06-28 19:11:27,417 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-338
+2018-06-28 19:11:27,428 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-338
+2018-06-28 19:11:27,428 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-420
+2018-06-28 19:11:28,094 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-250
+2018-06-28 19:11:28,094 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-280
+2018-06-28 19:11:28,094 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-250
+2018-06-28 19:11:28,094 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-280
+2018-06-28 19:11:28,094 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-253
+2018-06-28 19:11:28,094 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-253
+2018-06-28 19:11:28,095 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-350
+2018-06-28 19:11:28,095 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-350
+2018-06-28 19:11:28,098 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-209
+2018-06-28 19:11:28,099 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-209
+2018-06-28 19:11:28,103 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-450
+2018-06-28 19:11:28,108 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-450
+2018-06-28 19:11:28,108 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-410
+2018-06-28 19:11:28,109 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-410
+2018-06-28 19:11:28,109 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-79
+2018-06-28 19:11:28,110 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-79
+2018-06-28 19:11:28,117 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-124
+2018-06-28 19:11:28,118 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-124
+2018-06-28 19:11:28,119 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-65
+2018-06-28 19:11:28,119 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-65
+2018-06-28 19:11:28,127 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-74
+2018-06-28 19:11:28,127 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-74
+2018-06-28 19:11:28,132 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-189
+2018-06-28 19:11:28,132 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-189
+2018-06-28 19:11:28,133 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-305
+2018-06-28 19:11:28,133 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-305
+2018-06-28 19:11:28,133 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-20
+2018-06-28 19:11:28,133 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-20
+2018-06-28 19:11:28,134 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-300
+2018-06-28 19:11:28,134 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-300
+2018-06-28 19:11:28,135 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-252
+2018-06-28 19:11:28,135 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-252
+2018-06-28 19:11:28,135 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-170
+2018-06-28 19:11:28,135 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-170
+2018-06-28 19:11:28,135 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-358
+2018-06-28 19:11:28,135 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-358
+2018-06-28 19:11:28,135 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-127
+2018-06-28 19:11:28,135 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-78
+2018-06-28 19:11:28,136 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-78
+2018-06-28 19:11:28,136 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-459
+2018-06-28 19:11:28,136 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-466
+2018-06-28 19:11:28,136 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-459
+2018-06-28 19:11:28,136 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-311
+2018-06-28 19:11:28,136 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-311
+2018-06-28 19:11:28,136 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-370
+2018-06-28 19:11:28,136 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-154
+2018-06-28 19:11:28,137 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-370
+2018-06-28 19:11:28,137 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-262
+2018-06-28 19:11:28,137 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-262
+2018-06-28 19:11:28,137 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-452
+2018-06-28 19:11:28,137 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-452
+2018-06-28 19:11:28,138 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-131
+2018-06-28 19:11:28,138 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-197
+2018-06-28 19:11:28,138 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-197
+2018-06-28 19:11:28,138 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-224
+2018-06-28 19:11:28,138 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-224
+2018-06-28 19:11:28,138 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-221
+2018-06-28 19:11:28,138 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-221
+2018-06-28 19:11:28,134 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-227
+2018-06-28 19:11:28,139 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-227
+2018-06-28 19:11:28,138 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-131
+2018-06-28 19:11:28,138 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-446
+2018-06-28 19:11:28,138 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-105
+2018-06-28 19:11:28,136 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-109
+2018-06-28 19:11:28,141 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-446
+2018-06-28 19:11:28,135 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-127
+2018-06-28 19:11:28,141 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-466
+2018-06-28 19:11:28,141 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-105
+2018-06-28 19:11:28,142 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-109
+2018-06-28 19:11:28,141 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-154
+2018-06-28 19:11:28,144 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-56
+2018-06-28 19:11:28,144 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-355
+2018-06-28 19:11:28,144 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-56
+2018-06-28 19:11:28,144 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-125
+2018-06-28 19:11:28,144 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-125
+2018-06-28 19:11:28,144 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-39
+2018-06-28 19:11:28,144 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-39
+2018-06-28 19:11:28,144 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-436
+2018-06-28 19:11:28,146 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-355
+2018-06-28 19:11:28,146 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-436
+2018-06-28 19:11:28,780 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-426
+2018-06-28 19:11:28,781 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-426
+2018-06-28 19:11:28,781 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-207
+2018-06-28 19:11:28,781 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-207
+2018-06-28 19:11:28,781 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-367
+2018-06-28 19:11:28,781 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-325
+2018-06-28 19:11:28,781 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-367
+2018-06-28 19:11:28,781 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-289
+2018-06-28 19:11:28,781 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-282
+2018-06-28 19:11:28,781 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-289
+2018-06-28 19:11:28,794 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-418
+2018-06-28 19:11:28,794 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-444
+2018-06-28 19:11:28,794 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-418
+2018-06-28 19:11:28,794 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-444
+2018-06-28 19:11:28,794 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-23
+2018-06-28 19:11:28,795 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-458
+2018-06-28 19:11:28,795 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-458
+2018-06-28 19:11:28,796 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-312
+2018-06-28 19:11:28,796 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-312
+2018-06-28 19:11:28,796 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-128
+2018-06-28 19:11:28,796 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-128
+2018-06-28 19:11:28,797 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-193
+2018-06-28 19:11:28,797 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-376
+2018-06-28 19:11:28,797 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-376
+2018-06-28 19:11:28,797 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-447
+2018-06-28 19:11:28,797 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-447
+2018-06-28 19:11:28,797 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-1
+2018-06-28 19:11:28,797 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-1
+2018-06-28 19:11:28,798 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-158
+2018-06-28 19:11:28,798 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-158
+2018-06-28 19:11:28,798 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-129
+2018-06-28 19:11:28,798 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-129
+2018-06-28 19:11:28,799 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-142
+2018-06-28 19:11:28,799 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-142
+2018-06-28 19:11:28,799 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-156
+2018-06-28 19:11:28,799 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-156
+2018-06-28 19:11:28,799 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-403
+2018-06-28 19:11:28,799 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-403
+2018-06-28 19:11:28,800 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-346
+2018-06-28 19:11:28,800 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-346
+2018-06-28 19:11:28,800 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-408
+2018-06-28 19:11:28,800 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-408
+2018-06-28 19:11:28,800 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-149
+2018-06-28 19:11:28,800 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-149
+2018-06-28 19:11:28,801 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-342
+2018-06-28 19:11:28,801 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-342
+2018-06-28 19:11:28,801 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-440
+2018-06-28 19:11:28,801 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-440
+2018-06-28 19:11:28,801 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-349
+2018-06-28 19:11:28,801 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-349
+2018-06-28 19:11:28,802 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-205
+2018-06-28 19:11:28,802 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-205
+2018-06-28 19:11:28,802 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-473
+2018-06-28 19:11:28,802 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-473
+2018-06-28 19:11:28,802 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-394
+2018-06-28 19:11:28,802 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-394
+2018-06-28 19:11:28,802 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-396
+2018-06-28 19:11:28,802 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-396
+2018-06-28 19:11:28,803 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-5
+2018-06-28 19:11:28,803 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-5
+2018-06-28 19:11:28,804 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-304
+2018-06-28 19:11:28,804 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-304
+2018-06-28 19:11:28,804 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-11
+2018-06-28 19:11:28,804 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-11
+2018-06-28 19:11:28,804 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-431
+2018-06-28 19:11:28,804 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-431
+2018-06-28 19:11:28,806 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-26
+2018-06-28 19:11:28,806 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-26
+2018-06-28 19:11:28,811 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-100
+2018-06-28 19:11:28,832 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-100
+2018-06-28 19:11:28,781 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-429
+2018-06-28 19:11:28,836 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-429
+2018-06-28 19:11:28,831 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-29
+2018-06-28 19:11:28,831 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-231
+2018-06-28 19:11:28,831 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-448
+2018-06-28 19:11:28,831 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-83
+2018-06-28 19:11:28,831 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-266
+2018-06-28 19:11:28,836 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-83
+2018-06-28 19:11:28,836 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-231
+2018-06-28 19:11:28,836 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-266
+2018-06-28 19:11:28,830 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-445
+2018-06-28 19:11:28,837 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-445
+2018-06-28 19:11:28,830 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-379
+2018-06-28 19:11:28,837 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-379
+2018-06-28 19:11:28,830 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-404
+2018-06-28 19:11:28,830 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-17
+2018-06-28 19:11:28,837 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-404
+2018-06-28 19:11:28,830 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-104
+2018-06-28 19:11:28,838 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-104
+2018-06-28 19:11:28,830 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-439
+2018-06-28 19:11:28,838 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-439
+2018-06-28 19:11:28,830 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-12
+2018-06-28 19:11:28,830 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-180
+2018-06-28 19:11:28,838 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-12
+2018-06-28 19:11:28,830 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-419
+2018-06-28 19:11:28,838 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-419
+2018-06-28 19:11:28,829 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-112
+2018-06-28 19:11:28,838 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-112
+2018-06-28 19:11:28,829 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-422
+2018-06-28 19:11:28,839 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-422
+2018-06-28 19:11:28,829 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-58
+2018-06-28 19:11:28,829 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-137
+2018-06-28 19:11:28,839 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-58
+2018-06-28 19:11:28,828 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-230
+2018-06-28 19:11:28,828 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-138
+2018-06-28 19:11:28,828 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-233
+2018-06-28 19:11:28,839 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-233
+2018-06-28 19:11:28,839 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-138
+2018-06-28 19:11:28,828 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-442
+2018-06-28 19:11:28,839 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-442
+2018-06-28 19:11:28,828 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-344
+2018-06-28 19:11:28,839 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-344
+2018-06-28 19:11:28,828 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-153
+2018-06-28 19:11:28,840 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-153
+2018-06-28 19:11:28,828 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-453
+2018-06-28 19:11:28,840 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-453
+2018-06-28 19:11:28,828 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-53
+2018-06-28 19:11:28,840 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-53
+2018-06-28 19:11:28,828 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-366
+2018-06-28 19:11:28,828 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-471
+2018-06-28 19:11:28,841 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-471
+2018-06-28 19:11:28,840 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-366
+2018-06-28 19:11:28,827 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-322
+2018-06-28 19:11:28,827 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-299
+2018-06-28 19:11:28,841 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-322
+2018-06-28 19:11:28,827 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-106
+2018-06-28 19:11:28,827 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-375
+2018-06-28 19:11:28,843 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-106
+2018-06-28 19:11:28,827 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-406
+2018-06-28 19:11:28,843 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-406
+2018-06-28 19:11:28,826 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-351
+2018-06-28 19:11:28,825 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-378
+2018-06-28 19:11:28,843 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-351
+2018-06-28 19:11:28,843 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-378
+2018-06-28 19:11:28,817 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-140
+2018-06-28 19:11:28,844 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-140
+2018-06-28 19:11:28,817 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-68
+2018-06-28 19:11:28,844 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-68
+2018-06-28 19:11:28,817 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-155
+2018-06-28 19:11:28,816 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-136
+2018-06-28 19:11:28,816 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-270
+2018-06-28 19:11:28,844 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-270
+2018-06-28 19:11:28,816 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-251
+2018-06-28 19:11:28,844 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-251
+2018-06-28 19:11:28,816 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-283
+2018-06-28 19:11:28,816 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-234
+2018-06-28 19:11:28,845 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-283
+2018-06-28 19:11:28,845 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-234
+2018-06-28 19:11:28,816 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-265
+2018-06-28 19:11:28,845 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-265
+2018-06-28 19:11:28,816 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-241
+2018-06-28 19:11:28,816 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-194
+2018-06-28 19:11:28,845 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-194
+2018-06-28 19:11:28,845 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-241
+2018-06-28 19:11:28,816 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-116
+2018-06-28 19:11:28,846 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-116
+2018-06-28 19:11:28,815 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-76
+2018-06-28 19:11:28,815 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-42
+2018-06-28 19:11:28,846 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-42
+2018-06-28 19:11:28,846 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-76
+2018-06-28 19:11:28,804 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-324
+2018-06-28 19:11:28,803 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-461
+2018-06-28 19:11:28,846 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-324
+2018-06-28 19:11:28,802 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-284
+2018-06-28 19:11:28,846 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-284
+2018-06-28 19:11:28,800 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-235
+2018-06-28 19:11:28,847 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-235
+2018-06-28 19:11:28,799 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-348
+2018-06-28 19:11:28,798 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-428
+2018-06-28 19:11:28,847 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-348
+2018-06-28 19:11:28,797 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-193
+2018-06-28 19:11:28,796 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-161
+2018-06-28 19:11:28,847 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-161
+2018-06-28 19:11:28,795 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-369
+2018-06-28 19:11:28,847 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-369
+2018-06-28 19:11:28,848 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-23
+2018-06-28 19:11:28,781 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-298
+2018-06-28 19:11:28,848 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-282
+2018-06-28 19:11:28,848 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-298
+2018-06-28 19:11:28,848 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-325
+2018-06-28 19:11:28,848 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-461
+2018-06-28 19:11:28,844 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-136
+2018-06-28 19:11:28,844 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-155
+2018-06-28 19:11:28,848 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-428
+2018-06-28 19:11:28,843 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-375
+2018-06-28 19:11:28,839 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-230
+2018-06-28 19:11:28,838 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-180
+2018-06-28 19:11:28,849 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-17
+2018-06-28 19:11:28,850 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-448
+2018-06-28 19:11:28,836 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-29
+2018-06-28 19:11:28,849 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-137
+2018-06-28 19:11:28,849 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-299
+2018-06-28 19:11:29,479 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-464
+2018-06-28 19:11:29,480 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-464
+2018-06-28 19:11:29,481 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-59
+2018-06-28 19:11:29,481 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-211
+2018-06-28 19:11:29,482 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-54
+2018-06-28 19:11:29,482 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-54
+2018-06-28 19:11:29,482 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-3
+2018-06-28 19:11:29,483 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-3
+2018-06-28 19:11:29,497 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-211
+2018-06-28 19:11:29,505 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-7
+2018-06-28 19:11:29,505 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-7
+2018-06-28 19:11:29,506 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-88
+2018-06-28 19:11:29,506 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-88
+2018-06-28 19:11:29,506 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-60
+2018-06-28 19:11:29,506 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-60
+2018-06-28 19:11:29,507 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-93
+2018-06-28 19:11:29,507 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-93
+2018-06-28 19:11:29,508 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-70
+2018-06-28 19:11:29,508 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-70
+2018-06-28 19:11:29,508 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-302
+2018-06-28 19:11:29,508 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-302
+2018-06-28 19:11:29,509 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-113
+2018-06-28 19:11:29,509 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-113
+2018-06-28 19:11:29,509 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-115
+2018-06-28 19:11:29,509 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-225
+2018-06-28 19:11:29,509 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-225
+2018-06-28 19:11:29,511 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-150
+2018-06-28 19:11:29,511 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-150
+2018-06-28 19:11:29,511 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-98
+2018-06-28 19:11:29,511 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-98
+2018-06-28 19:11:29,512 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-22
+2018-06-28 19:11:29,512 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-22
+2018-06-28 19:11:29,512 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-492
+2018-06-28 19:11:29,512 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-492
+2018-06-28 19:11:29,512 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-102
+2018-06-28 19:11:29,512 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-102
+2018-06-28 19:11:29,512 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-437
+2018-06-28 19:11:29,512 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-437
+2018-06-28 19:11:29,512 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-94
+2018-06-28 19:11:29,512 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-94
+2018-06-28 19:11:29,512 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-377
+2018-06-28 19:11:29,512 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-377
+2018-06-28 19:11:29,513 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-36
+2018-06-28 19:11:29,513 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-36
+2018-06-28 19:11:29,514 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-354
+2018-06-28 19:11:29,514 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-354
+2018-06-28 19:11:29,514 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-90
+2018-06-28 19:11:29,514 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-90
+2018-06-28 19:11:29,515 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-223
+2018-06-28 19:11:29,520 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-223
+2018-06-28 19:11:29,522 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-425
+2018-06-28 19:11:29,521 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-398
+2018-06-28 19:11:29,522 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-425
+2018-06-28 19:11:29,522 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-398
+2018-06-28 19:11:29,522 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-423
+2018-06-28 19:11:29,522 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-423
+2018-06-28 19:11:29,522 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-432
+2018-06-28 19:11:29,522 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-432
+2018-06-28 19:11:29,523 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-43
+2018-06-28 19:11:29,523 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-43
+2018-06-28 19:11:29,523 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-254
+2018-06-28 19:11:29,523 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-254
+2018-06-28 19:11:29,523 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-210
+2018-06-28 19:11:29,523 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-210
+2018-06-28 19:11:29,482 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-59
+2018-06-28 19:11:29,518 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-159
+2018-06-28 19:11:29,518 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-361
+2018-06-28 19:11:29,517 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-411
+2018-06-28 19:11:29,517 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-493
+2018-06-28 19:11:29,517 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-37
+2018-06-28 19:11:29,517 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-416
+2018-06-28 19:11:29,524 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-37
+2018-06-28 19:11:29,516 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-172
+2018-06-28 19:11:29,509 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-115
+2018-06-28 19:11:29,524 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-172
+2018-06-28 19:11:29,506 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-219
+2018-06-28 19:11:29,524 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-416
+2018-06-28 19:11:29,524 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-493
+2018-06-28 19:11:29,524 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-411
+2018-06-28 19:11:29,524 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-159
+2018-06-28 19:11:29,524 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-361
+2018-06-28 19:11:29,524 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-219
+2018-06-28 19:11:29,527 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-99
+2018-06-28 19:11:29,527 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-99
+2018-06-28 19:11:30,190 INFO o.a.j.r.Summariser: summary +  14402 in 00:00:22 =  663.4/s Avg:   293 Min:     5 Max:  6443 Err:     0 (0.00%) Active: 165 Started: 500 Finished: 335
+2018-06-28 19:11:30,195 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-214
+2018-06-28 19:11:30,195 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-214
+2018-06-28 19:11:30,196 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-292
+2018-06-28 19:11:30,196 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-292
+2018-06-28 19:11:30,198 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-171
+2018-06-28 19:11:30,198 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-171
+2018-06-28 19:11:30,201 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-456
+2018-06-28 19:11:30,202 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-456
+2018-06-28 19:11:30,203 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-441
+2018-06-28 19:11:30,203 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-208
+2018-06-28 19:11:30,203 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-208
+2018-06-28 19:11:30,204 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-49
+2018-06-28 19:11:30,204 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-49
+2018-06-28 19:11:30,203 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-441
+2018-06-28 19:11:30,206 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-75
+2018-06-28 19:11:30,206 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-75
+2018-06-28 19:11:30,206 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-35
+2018-06-28 19:11:30,206 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-35
+2018-06-28 19:11:30,204 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-212
+2018-06-28 19:11:30,206 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-212
+2018-06-28 19:11:30,343 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-41
+2018-06-28 19:11:30,343 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-41
+2018-06-28 19:11:30,543 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-374
+2018-06-28 19:11:30,543 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-374
+2018-06-28 19:11:30,543 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-21
+2018-06-28 19:11:30,543 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-21
+2018-06-28 19:11:30,547 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-421
+2018-06-28 19:11:30,547 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-421
+2018-06-28 19:11:30,547 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-385
+2018-06-28 19:11:30,548 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-385
+2018-06-28 19:11:30,548 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-51
+2018-06-28 19:11:30,548 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-51
+2018-06-28 19:11:30,551 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-57
+2018-06-28 19:11:30,551 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-57
+2018-06-28 19:11:30,553 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-63
+2018-06-28 19:11:30,553 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-63
+2018-06-28 19:11:30,553 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-489
+2018-06-28 19:11:30,553 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-489
+2018-06-28 19:11:30,555 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-248
+2018-06-28 19:11:30,555 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-248
+2018-06-28 19:11:30,555 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-481
+2018-06-28 19:11:30,556 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-345
+2018-06-28 19:11:30,556 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-345
+2018-06-28 19:11:30,556 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-481
+2018-06-28 19:11:30,556 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-482
+2018-06-28 19:11:30,556 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-482
+2018-06-28 19:11:30,559 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-40
+2018-06-28 19:11:30,559 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-40
+2018-06-28 19:11:30,560 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-360
+2018-06-28 19:11:30,560 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-360
+2018-06-28 19:11:30,565 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-469
+2018-06-28 19:11:30,565 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-469
+2018-06-28 19:11:30,565 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-331
+2018-06-28 19:11:30,565 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-331
+2018-06-28 19:11:30,566 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-164
+2018-06-28 19:11:30,566 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-334
+2018-06-28 19:11:30,566 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-387
+2018-06-28 19:11:30,566 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-387
+2018-06-28 19:11:30,566 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-30
+2018-06-28 19:11:30,566 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-30
+2018-06-28 19:11:30,566 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-451
+2018-06-28 19:11:30,566 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-132
+2018-06-28 19:11:30,567 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-173
+2018-06-28 19:11:30,567 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-173
+2018-06-28 19:11:30,567 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-281
+2018-06-28 19:11:30,567 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-281
+2018-06-28 19:11:30,568 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-334
+2018-06-28 19:11:30,567 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-132
+2018-06-28 19:11:30,567 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-451
+2018-06-28 19:11:30,566 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-164
+2018-06-28 19:11:32,519 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-330
+2018-06-28 19:11:32,519 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-330
+2018-06-28 19:11:32,520 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-181
+2018-06-28 19:11:32,520 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-181
+2018-06-28 19:11:32,521 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-310
+2018-06-28 19:11:32,521 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-310
+2018-06-28 19:11:32,522 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-317
+2018-06-28 19:11:32,522 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-317
+2018-06-28 19:11:32,522 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-6
+2018-06-28 19:11:32,523 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-6
+2018-06-28 19:11:32,525 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-490
+2018-06-28 19:11:32,526 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-490
+2018-06-28 19:11:32,531 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-326
+2018-06-28 19:11:32,531 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-326
+2018-06-28 19:11:32,537 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-71
+2018-06-28 19:11:32,537 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-71
+2018-06-28 19:11:32,539 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-472
+2018-06-28 19:11:32,539 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-472
+2018-06-28 19:11:32,539 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-483
+2018-06-28 19:11:32,539 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-483
+2018-06-28 19:11:32,539 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-390
+2018-06-28 19:11:32,539 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-390
+2018-06-28 19:11:32,540 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-31
+2018-06-28 19:11:32,540 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-31
+2018-06-28 19:11:32,546 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-478
+2018-06-28 19:11:32,546 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-478
+2018-06-28 19:11:32,551 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-46
+2018-06-28 19:11:32,551 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-318
+2018-06-28 19:11:32,551 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-46
+2018-06-28 19:11:32,552 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-174
+2018-06-28 19:11:32,552 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-174
+2018-06-28 19:11:32,552 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-353
+2018-06-28 19:11:32,552 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-353
+2018-06-28 19:11:32,553 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-82
+2018-06-28 19:11:32,553 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-82
+2018-06-28 19:11:32,563 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-67
+2018-06-28 19:11:32,563 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-67
+2018-06-28 19:11:32,565 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-454
+2018-06-28 19:11:32,565 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-454
+2018-06-28 19:11:32,568 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-381
+2018-06-28 19:11:32,568 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-381
+2018-06-28 19:11:32,578 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-393
+2018-06-28 19:11:32,578 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-393
+2018-06-28 19:11:32,580 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-10
+2018-06-28 19:11:32,580 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-10
+2018-06-28 19:11:32,581 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-498
+2018-06-28 19:11:32,581 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-498
+2018-06-28 19:11:32,582 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-380
+2018-06-28 19:11:32,582 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-380
+2018-06-28 19:11:32,582 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-487
+2018-06-28 19:11:32,582 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-487
+2018-06-28 19:11:32,583 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-457
+2018-06-28 19:11:32,583 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-457
+2018-06-28 19:11:32,584 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-119
+2018-06-28 19:11:32,584 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-119
+2018-06-28 19:11:32,584 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-368
+2018-06-28 19:11:32,584 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-368
+2018-06-28 19:11:32,585 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-190
+2018-06-28 19:11:32,585 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-190
+2018-06-28 19:11:32,586 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-384
+2018-06-28 19:11:32,586 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-384
+2018-06-28 19:11:32,551 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-318
+2018-06-28 19:11:32,635 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-463
+2018-06-28 19:11:32,635 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-463
+2018-06-28 19:11:32,585 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-244
+2018-06-28 19:11:32,641 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-244
+2018-06-28 19:11:32,582 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-320
+2018-06-28 19:11:32,641 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-320
+2018-06-28 19:11:32,641 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-179
+2018-06-28 19:11:32,641 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-179
+2018-06-28 19:11:32,642 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-73
+2018-06-28 19:11:32,642 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-73
+2018-06-28 19:11:32,642 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-474
+2018-06-28 19:11:32,642 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-455
+2018-06-28 19:11:32,642 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-455
+2018-06-28 19:11:32,642 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-362
+2018-06-28 19:11:32,642 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-474
+2018-06-28 19:11:32,642 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-362
+2018-06-28 19:11:32,643 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-52
+2018-06-28 19:11:32,643 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-52
+2018-06-28 19:11:32,643 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-50
+2018-06-28 19:11:32,643 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-50
+2018-06-28 19:11:32,643 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-175
+2018-06-28 19:11:32,643 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-175
+2018-06-28 19:11:32,643 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-409
+2018-06-28 19:11:32,643 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-409
+2018-06-28 19:11:32,644 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-499
+2018-06-28 19:11:32,644 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-499
+2018-06-28 19:11:32,644 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-488
+2018-06-28 19:11:32,644 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-488
+2018-06-28 19:11:32,644 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-363
+2018-06-28 19:11:32,644 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-363
+2018-06-28 19:11:32,644 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-407
+2018-06-28 19:11:32,645 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-407
+2018-06-28 19:11:32,645 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-494
+2018-06-28 19:11:32,645 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-494
+2018-06-28 19:11:32,646 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-470
+2018-06-28 19:11:32,646 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-470
+2018-06-28 19:11:32,646 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-449
+2018-06-28 19:11:32,646 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-449
+2018-06-28 19:11:32,646 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-64
+2018-06-28 19:11:32,646 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-64
+2018-06-28 19:11:32,646 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-84
+2018-06-28 19:11:32,646 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-84
+2018-06-28 19:11:32,646 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-496
+2018-06-28 19:11:32,646 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-496
+2018-06-28 19:11:32,647 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-434
+2018-06-28 19:11:32,647 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-388
+2018-06-28 19:11:32,647 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-388
+2018-06-28 19:11:32,647 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-343
+2018-06-28 19:11:32,647 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-433
+2018-06-28 19:11:32,647 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-434
+2018-06-28 19:11:32,647 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-433
+2018-06-28 19:11:32,647 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-167
+2018-06-28 19:11:32,647 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-167
+2018-06-28 19:11:32,647 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-343
+2018-06-28 19:11:32,647 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-430
+2018-06-28 19:11:32,647 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-430
+2018-06-28 19:11:32,647 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-86
+2018-06-28 19:11:32,647 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-86
+2018-06-28 19:11:32,648 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-372
+2018-06-28 19:11:32,648 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-372
+2018-06-28 19:11:32,649 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-55
+2018-06-28 19:11:32,649 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-203
+2018-06-28 19:11:32,649 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-55
+2018-06-28 19:11:32,649 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-327
+2018-06-28 19:11:32,649 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-327
+2018-06-28 19:11:32,649 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-417
+2018-06-28 19:11:32,649 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-417
+2018-06-28 19:11:32,649 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-203
+2018-06-28 19:11:32,649 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-16
+2018-06-28 19:11:32,649 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-16
+2018-06-28 19:11:32,650 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-485
+2018-06-28 19:11:32,650 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-485
+2018-06-28 19:11:32,650 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-201
+2018-06-28 19:11:32,650 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-201
+2018-06-28 19:11:32,651 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-476
+2018-06-28 19:11:32,651 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-476
+2018-06-28 19:11:33,634 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-38
+2018-06-28 19:11:33,635 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-38
+2018-06-28 19:11:33,653 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-401
+2018-06-28 19:11:33,653 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-401
+2018-06-28 19:11:33,661 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-356
+2018-06-28 19:11:33,662 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-356
+2018-06-28 19:11:33,663 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-435
+2018-06-28 19:11:33,663 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-435
+2018-06-28 19:11:33,666 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-133
+2018-06-28 19:11:33,666 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-133
+2018-06-28 19:11:33,670 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-347
+2018-06-28 19:11:33,670 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-347
+2018-06-28 19:11:33,671 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-497
+2018-06-28 19:11:33,671 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-497
+2018-06-28 19:11:33,675 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-364
+2018-06-28 19:11:33,675 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-364
+2018-06-28 19:11:33,676 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-95
+2018-06-28 19:11:33,676 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-491
+2018-06-28 19:11:33,677 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-491
+2018-06-28 19:11:33,677 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-373
+2018-06-28 19:11:33,677 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-373
+2018-06-28 19:11:33,677 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-460
+2018-06-28 19:11:33,677 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-460
+2018-06-28 19:11:33,676 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-95
+2018-06-28 19:11:33,679 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-395
+2018-06-28 19:11:33,679 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-395
+2018-06-28 19:11:33,682 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-480
+2018-06-28 19:11:33,682 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-480
+2018-06-28 19:11:33,682 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-357
+2018-06-28 19:11:33,682 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-357
+2018-06-28 19:11:33,683 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-462
+2018-06-28 19:11:33,683 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-462
+2018-06-28 19:11:33,683 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-204
+2018-06-28 19:11:33,683 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-204
+2018-06-28 19:11:33,684 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-495
+2018-06-28 19:11:33,684 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-28
+2018-06-28 19:11:33,684 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-495
+2018-06-28 19:11:33,684 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-28
+2018-06-28 19:11:33,716 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-273
+2018-06-28 19:11:33,717 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-273
+2018-06-28 19:11:33,722 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-288
+2018-06-28 19:11:33,722 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-339
+2018-06-28 19:11:33,722 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-484
+2018-06-28 19:11:33,722 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-77
+2018-06-28 19:11:33,722 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-484
+2018-06-28 19:11:33,722 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-288
+2018-06-28 19:11:33,722 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-77
+2018-06-28 19:11:33,722 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-339
+2018-06-28 19:11:33,723 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-286
+2018-06-28 19:11:33,723 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-286
+2018-06-28 19:11:33,736 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-500
+2018-06-28 19:11:33,736 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-500
+2018-06-28 19:11:33,738 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-389
+2018-06-28 19:11:33,738 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-389
+2018-06-28 19:11:34,158 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-479
+2018-06-28 19:11:34,159 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-479
+2018-06-28 19:11:34,167 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-32
+2018-06-28 19:11:34,167 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-335
+2018-06-28 19:11:34,167 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-32
+2018-06-28 19:11:34,168 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-335
+2018-06-28 19:11:34,170 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-27
+2018-06-28 19:11:34,170 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-27
+2018-06-28 19:11:34,172 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-107
+2018-06-28 19:11:34,172 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-107
+2018-06-28 19:11:34,175 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-468
+2018-06-28 19:11:34,175 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-468
+2018-06-28 19:11:34,661 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-477
+2018-06-28 19:11:34,661 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-477
+2018-06-28 19:11:34,661 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-267
+2018-06-28 19:11:34,661 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-267
+2018-06-28 19:11:34,668 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-240
+2018-06-28 19:11:34,668 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-240
+2018-06-28 19:11:34,713 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-391
+2018-06-28 19:11:34,713 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-391
+2018-06-28 19:11:34,719 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-97
+2018-06-28 19:11:34,719 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-97
+2018-06-28 19:11:34,723 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-352
+2018-06-28 19:11:34,723 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-352
+2018-06-28 19:11:34,723 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-146
+2018-06-28 19:11:34,723 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-146
+2018-06-28 19:11:34,725 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-143
+2018-06-28 19:11:34,725 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-143
+2018-06-28 19:11:34,726 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-61
+2018-06-28 19:11:34,726 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-61
+2018-06-28 19:11:34,728 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-337
+2018-06-28 19:11:34,728 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-337
+2018-06-28 19:11:34,758 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-297
+2018-06-28 19:11:34,758 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-297
+2018-06-28 19:11:34,762 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-229
+2018-06-28 19:11:34,762 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-229
+2018-06-28 19:11:34,772 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-371
+2018-06-28 19:11:34,772 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-371
+2018-06-28 19:11:34,775 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-34
+2018-06-28 19:11:34,775 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-34
+2018-06-28 19:11:34,782 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-315
+2018-06-28 19:11:34,782 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-315
+2018-06-28 19:11:34,784 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-467
+2018-06-28 19:11:34,784 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-467
+2018-06-28 19:11:34,784 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-397
+2018-06-28 19:11:34,784 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-397
+2018-06-28 19:11:34,786 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-168
+2018-06-28 19:11:34,786 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-168
+2018-06-28 19:11:35,206 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-402
+2018-06-28 19:11:35,206 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-402
+2018-06-28 19:11:35,709 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-414
+2018-06-28 19:11:35,709 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-414
+2018-06-28 19:11:35,713 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-486
+2018-06-28 19:11:35,713 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-486
+2018-06-28 19:11:35,769 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-85
+2018-06-28 19:11:35,769 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-85
+2018-06-28 19:11:35,817 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-415
+2018-06-28 19:11:35,817 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-415
+2018-06-28 19:11:35,855 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-475
+2018-06-28 19:11:35,855 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-475
+2018-06-28 19:11:36,276 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-332
+2018-06-28 19:11:36,276 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-332
+2018-06-28 19:11:36,822 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-306
+2018-06-28 19:11:36,822 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-306
+2018-06-28 19:11:36,883 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-333
+2018-06-28 19:11:36,883 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-333
+2018-06-28 19:11:37,956 INFO o.a.j.t.JMeterThread: Thread is done: seckill 1-359
+2018-06-28 19:11:37,956 INFO o.a.j.t.JMeterThread: Thread finished: seckill 1-359
+2018-06-28 19:11:37,956 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-06-28 19:11:37,956 INFO o.a.j.s.FileServer: Close: product.csv
+2018-06-28 19:11:37,956 INFO o.a.j.s.FileServer: Close: tokens.txt
+2018-06-28 19:11:37,959 INFO o.a.j.r.Summariser: summary +    598 in 00:00:08 =   77.0/s Avg:   499 Min:     6 Max:  3083 Err:     0 (0.00%) Active: 0 Started: 500 Finished: 500
+2018-06-28 19:11:37,959 INFO o.a.j.r.Summariser: summary =  15000 in 00:00:29 =  508.8/s Avg:   302 Min:     5 Max:  6443 Err:     0 (0.00%)
